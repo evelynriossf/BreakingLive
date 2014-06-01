@@ -3,10 +3,10 @@ body {
 }
 
 .container>.navbar-header {
-	margin-left: -100px;
+	margin-left: -30px;
 }
 
-.navbar-fixed-top .nav {
+.navbar-fixed-top {
     padding: 15px 0;
     height: 120px;
 }
@@ -21,7 +21,6 @@ body {
     }
 
     .navbar-fixed-top .navbar-brand {
-        padding: 15px 0;
     }
 }
 
@@ -36,7 +35,7 @@ body {
    	height: 0;
    	margin-bottom: 16px;
    	overflow: hidden;
-   	margin-left: 15px;
+   	margin-left: 80px;
    }
 
    .flex-video.widescreen { padding-bottom: 57.25%; }

@@ -24,8 +24,12 @@ body {
 	}
 }
 
+.chute-wall-view {
+	width: 100% !important;
+}
+
 .chute-asset-view {
-	width: 80% !important;
+	width: 100% !important;
 }
 
 .flex-video {
@@ -33,13 +37,13 @@ body {
 	padding-top: 25px;
 	padding-bottom: 67.5%;
 	height: 0;
-	margin-bottom: 16px;
+	margin-bottom: -10%;
 	overflow: hidden;
 }
 
 @media only screen and (min-width: 855px) {
 	.flex-video {
-		margin-bottom: -70px;
+		margin-bottom: -10%;
 	}
 }
 

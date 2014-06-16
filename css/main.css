@@ -1,14 +1,18 @@
 body {
-	margin-top: 125px; /* adjust this if the height of the menu bar changes */
+	margin-top: 185px; /* adjust this if the height of the menu bar changes */
 }
 
 .container>.navbar-header {
 	margin-left: -15px;
 }
 
+.navbar-collapse {
+	margin-top: 20px;
+}
+
 .navbar-fixed-top {
 	padding: 15px 0;
-	height: 120px;
+	height: 115px;
 }
 
 .navbar-fixed-top .navbar-brand {
@@ -19,8 +23,32 @@ body {
 	.navbar-fixed-top .nav {
 		padding: 15px 0;
 	}
+}
 
-	.navbar-fixed-top .navbar-brand {
+.navbar-text {
+	color: white;
+	margin-top: 0px;
+}
+
+
+@media(max-width: 911px) {
+	body {
+		margin-top: 200px; /* adjust this if the height of the menu bar changes */
+	}
+
+	.navbar-fixed-top {
+		height: 185px;
+	}
+
+	.navbar-text {
+		margin-top: 10px;
+	}
+
+}
+
+@media(min-width: 768px) and (max-width: 911px) {
+	.navbar-text {
+		margin-top: 35px;
 	}
 }
 
